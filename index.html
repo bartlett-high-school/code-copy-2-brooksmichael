@@ -6,11 +6,289 @@
     
     <!--Put your CSS inside this style tag-->
     <style>
+   		div.container{
+   			margin: 0 auto;
+   		}
+
+   		body{
+   			margin: 0 auto;
+   			width: 100%;
+   			background-color: #f2f2f2;
+   		}
+    	header{
+    		background-color: #000000; 
+    	}
+    	div.clear{
+    		clear: both;
+    	}
+    	.header{
+    		list-style: none;
+    		margin: auto;
+    		padding-bottom: -10%;
+    	}
+    	.heads li{
+    		display: inline-block;
+    		padding: 1% 3.3% 1% 3.3%;
+    		vertical-align: middle;
+    		font-family: arial;
+    		text-align: center;
+    		color: white;
+    		font-size: .9em;
+    	}
+   		header img{
+   			width: 25px;
+   		}
+   		.iphone {
+   			width: 100%;
+   			height: 775px;
+   			margin: 0 auto;
+   		}
+
+   		ul.four{
+   			list-style: none;
+ 			margin: 0;
+ 			padding: 0;
+   		}
+
+   		.four li {
+   			display: inline-block;
+   		}
+
+   		.ilist{
+   			width: 311px;
+   			height: 200px;
+   			border-bottom: 1px solid white;
+   			border-top: 1px solid white;
+   			border-right: 1px solid white;
+   		}
+   		.shop{
+   			list-style: none;
+   			font-family: arial;
+   			padding-left: 12%;
+   			line-height: 200%;
+   			color: #333;
+   			float: left;
+   			width: 10%;
+   			font-size: .75em;
+   		}
+   		.title{
+   			color:#333;
+   			font-weight: bold;
+   		}
+   		.lists{
+   			list-style: none;
+   			display: inline-block;
+   			width: 100%;
+   		}
+   		.store{
+   			list-style: none;
+   			font-family: arial;
+   			color: #333;
+   			line-height: 200%;
+   			float: left;
+   			width: 12%;
+   			padding-left: 5%;
+   			font-size: .75em;
+   		}
+   		.schools{
+   			list-style: none;
+   			font-family: arial;
+   			color: #333;
+   			line-height: 250%;
+   			float: left;
+   			width: 15%;
+   			padding-left: 4%;
+   			padding-top:0;
+   			font-size: .75em;
+   		}
+   		.account{
+   			list-style: none;
+   			font-family: arial;
+   			color: #333;
+   			line-height: 235%;
+   			float: left;
+   			width: 15%;
+   			padding-left: 0;
+   			font-size: .75em;
+   		}
+   		.about{
+   				list-style: none;
+   			font-family: arial;
+   			color: #333;
+   			line-height: 235%;
+   			float: left;
+   			width: 15%;
+   			padding-left: 0;
+   			font-size: .75em;
+   		}
+
+   		a {
+   			text-decoration: none;
+   			color: white;
+   		}
+   		a:hover{
+   			color: #aaa;
+   			transition: .1s;
+   		}
+   		a.bottom_lists{
+   			color: #333;
+   		}
+   		a.bottom_lists:hover{
+   			text-decoration: underline;
+   			color: #333;
+   		}
+
+   		p{
+   			width: 100%;
+   			padding-top:26%;
+   			padding-left: 12%;
+   			color: #999;
+   			font-family: arial;
+   			font-size: .73em;
+   		}
+
+   		a.blue {
+   			color: #0070c9;
+   		}
+
+   		a.blue:hover{
+   			text-decoration: underline;
+   			color: black;
+   			cursor: pointer;
+   		}
+   		hr{
+   			width:76%;
+   			color: #999;
+   			height: .3px;
+   		}
+   		.cr{
+   			padding-top: 0;
+   		}
+   		a.lowlist{
+   			color: #777;
+   			border-right: 1px solid #777;
+   			padding:0 12px 0 12px;
+   			line-height: 3px;
+   		}
+   		a.lowlist:hover{
+   			color:black;
+   			text-decoration: underline;
+   			cursor: pointer;
+   		}
+   		#own{
+   			border-right: none;
+   		}
+   		.usa{
+   			padding-left: 150px;
+   		}
+   		.lowlists{
+   			color: #777;
+   		}
+
+   		#owns{
+   			padding-top: 0;
+   			padding-left: 20px;
+   			border-right: none;
+   			padding-bottom: 5px;
+   		}
+   	
     </style>
 
   </head>
-  
+  <div class = "container">
+  <div class = "clear">
+  <header class = "heads">
+  	<ul class = "header">
+  		<li><img src = "img/apple-logo.png" alt = "logo" class = "logo"</li>
+  		<li><a href ="">Mac</a></li>
+  		<li><a href ="">iPhone</a></li>
+  		<li><a href ="">iPod</a></li>
+  		<li><a href ="">Watch</a></li>
+  		<li><a href ="">TV</a></li>
+  		<li><a href ="">Music</a></li>
+  		<li><a href ="">Support</a></li>
+  		<li><img src = "img/search.png" alt = "search" class = "search"></li>
+  		<li><img src = "img/bag.png" alt = "bag" class = "bag"></li>
+  	</ul>
+  </header>
   <body>
+  	<img src = "img/new.png" alt = "iphone" class = "iphone">
+  	<ul class = "four">
+  		<li><img src = "img/made_by_apple.jpg" alt = "made" class = "ilist"></li>
+  		<li><img src = "img/ipad_pro.jpg" alt = "ipad" class = "ilist"></li>
+  		<li><img src = "img/airpods.jpg" alt = "airpods" class = "ilist"></li>
+  		<li><img src = "img/apple_tv.jpg" alt = "tv" class = "ilist"></li>
+  	</ul>
   </body>
-  
+  <footer>
+  <div class = "shops">
+  	<ul class = "shop">
+  		<li class = "title">Shop and Learn</li>
+  		<li><a href = "" class = "bottom_lists">Mac</a></li>
+  		<li><a href = "" class = "bottom_lists">iPad</a></li>
+  		<li><a href = "" class = "bottom_lists">iPhone</a></li>
+  		<li><a href = "" class = "bottom_lists">Watch</a></li>
+  		<li><a href = "" class = "bottom_lists">TV</a></li>
+  		<li><a href = "" class = "bottom_lists">Music</a></li>
+  		<li><a href = "" class = "bottom_lists">iTunes</a></li>
+  		<li><a href = "" class = "bottom_lists">iPod</a></li>
+  		<li><a href = "" class = "bottom_lists">Acessories</a></li>
+  		<li><a href = "" class = "bottom_lists">Giftcard</a></li>
+  	</ul>
+  </div>	
+  <div class = "stores">
+  		<ul class = "store">
+  			<li class = "title">Apple Store</li>
+  			<li><a href = "" class = "bottom_lists">Find a Store</a></li>
+  			<li><a href = "" class = "bottom_lists">Genius Bar</a></li>
+  			<li><a href = "" class = "bottom_lists">Workshops and Learning</a></li>
+  			<li><a href = "" class = "bottom_lists">Youth Programs</a></li>
+  			<li><a href = "" class = "bottom_lists">Apple Store App</a></li>
+  			<li><a href = "" class = "bottom_lists">Refurbished and Clearance</a></li>
+  			<li><a href = "" class = "bottom_lists">Financing</a></li>
+  			<li><a href = "" class = "bottom_lists">Reuse and Recycling</a></li>
+  			<li><a href = "" class = "bottom_lists">Order Status</a></li>
+  			<li><a href = "" class = "bottom_lists">Shopping Help</a></li>
+  		</ul>
+  	</div>
+  	<div class = "school">
+  		<ul class = "schools">
+  			<li class = "title">For Education</li>
+  			<li><a href = "" class = "bottom_lists">Apple and Education</a></li>
+  			<li><a href = "" class = "bottom_lists">Shop for College</a></li>
+  			<li class = "title">For Business</a></li>
+  			<li><a href = "" class = "bottom_lists">Apple and Business</a></li>
+  			<li><a href = "" class = "bottom_lists">Shop for Business</a></li>
+  			</ul>
+  	<div class = "accounts">
+  		<ul class = "account">
+  			<li class = "title">Account</li>
+  			<li><a href = "" class = "bottom_lists">Manage Your Apple ID</a></li>
+  			<li><a href = "" class = "bottom_lists">Apple Store Account</a></li>
+  			<li><a href = "" class = "bottom_lists">iCloud.com</a></li>
+  			<li class = "title">Apple Values</li>
+  			<li><a href = "" class = "bottom_lists">Accessibility</a></li>
+  			<li><a href = "" class = "bottom_lists">Education</a></li>
+  			<li><a href = "" class = "bottom_lists">Environment</a></li>
+  			<li><a href = "" class = "bottom_lists">Inclusion and Diversion</a></li>
+  			<li><a href = "" class = "bottom_lists">Privacy</a></li>
+  			<li><a href = "" class = "bottom_lists">Supplier Responsibility</a></li>
+ 		</ul>
+ 	<div class = "Abouts">
+ 		<ul class = "about">
+ 			<li class = "title">About Apple</li>
+ 			<li><a href = "" class = "bottom_lists">Apple Info</a></li>
+ 			<li><a href = "" class = "bottom_lists">Newsroom</a></li>
+ 			<li><a href = "" class = "bottom_lists">Job Opportunities</a></li>
+ 			<li><a href = "" class = "bottom_lists">Press Info</a></li>
+ 			<li><a href = "" class = "bottom_lists">investors</a></li>
+ 			<li><a href = "" class = "bottom_lists">Events</a></li>
+ 			<li><a href = "" class = "bottom_lists">Contact Apple</a></li>
+  	
+  </footer>
+  <p>More ways to shop: Visit an <a href = "" class = "blue">Apple Store</a>, call 1-800-MY-APPLE, or <a href = "" class = "blue">find a reseller.</a></p>
+  	<hr>
+  	<p class ="cr">Copyright © 2017 Apple Inc. All rights reserved.  	<a href = "" class = "lowlist">Privacy Policy </a><a href = "" class = "lowlist">Terms of Use</a> <a href = "" class = "lowlist">Sales and Refunds</a> <a href = "" class = "lowlist">Legal</a><a href = "" class = "lowlist" id = "own">Site Map</a><img src = "img/usa.png" alt = "usa" class = "usa"> <a href = "" class = "lowlist" id = "owns">United States</a></p>
+ 
+  </div>
 </html>
